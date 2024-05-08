@@ -1,9 +1,13 @@
 .catergories
 {
-    margin-left: 45%;
+    /* margin-left: 45%; */
     font-family: 'Noto Sans';
-    /* font-weight: bolder; */
+    text-align: center;
     font-size: 30px;
     margin-top: 3rem;
+}
+
+.container{
+    margin-bottom: 5rem;
 }
 

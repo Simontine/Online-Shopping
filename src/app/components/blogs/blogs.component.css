@@ -1,0 +1,11 @@
+.main{
+    background-color: grey;
+    
+}
+
+.center {
+    font-family: 'Noto Sans';
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+  }
