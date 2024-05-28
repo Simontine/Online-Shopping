@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
-import { ServicesComponent } from './components/services/services.component';
 import { SearchComponent } from './components/search/search.component';
 import { BlogsComponent } from './components/blogs/blogs.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -15,7 +14,7 @@ import { LoginComponent } from './components/login/login.component';
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
     imports: [CommonModule, RouterOutlet, LandingPageComponent,
-        ServicesComponent, SearchComponent, BlogsComponent,
+         SearchComponent, BlogsComponent,
         FooterComponent, RouterOutlet, RouterLink, RouterLinkActive, RegisterComponent, LoginComponent]
 })
 export class AppComponent {
