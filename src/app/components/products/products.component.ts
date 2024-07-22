@@ -15,7 +15,7 @@ export class ProductsComponent implements OnInit{
   isSidePanelVisible: boolean = false;
 
   productObj: any = {
-    "productId":0,
+    "id":0,
     "productSku": "",
     "productName": "",
     "productPrice": 0,

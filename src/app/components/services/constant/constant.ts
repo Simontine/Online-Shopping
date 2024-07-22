@@ -1,7 +1,7 @@
 export const Constant = {
-    API_END_POINT: 'https://onlinetestapi.gerasim.in/api/Ecomm/GetAllProducts',
+    API_END_POINT: 'https://fakestoreapi.com/products/',
     METHODS: {
         GET_ALL_PRODUCTS: '',
-        GET_ALL_CATEGORIES: 'GetAllCategory'
+        GET_ALL_CATEGORIES: 'categories'
     }
 }

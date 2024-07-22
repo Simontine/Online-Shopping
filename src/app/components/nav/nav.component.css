@@ -5,10 +5,10 @@
 }
 
 .logo-image {
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 180px;
     overflow: hidden;
-    margin-top: -6px;
+    /* margin-top: -6px; */
 }
 
 .navigation {
@@ -35,7 +35,7 @@ ul li a {
 
 ul li a.cart:hover {
     text-decoration: none;
-    color: #d60e96;
+    color: #418deb;
 }
 
 ul li a.cart .cart-basket {
@@ -50,15 +50,22 @@ ul li a.cart .cart-basket {
     border-radius: 50%;
 }
 
+ul li a.login:hover {
+    text-decoration: none;
+    color: #11c2d6;
+}
+
+
+
 .a:hover {
-    text-decoration: #d60e96;
-    color: #d60e96;
-    text-shadow: #d60e96;
+    text-decoration: #11c2d6;
+    color: #11c2d6;
+    text-shadow: #11c2d6;
 }
 
  
 .nav-item a:hover {
-    color: #d60e96;
+    color: #11c2d6;
 }
  
 

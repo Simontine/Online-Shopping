@@ -7,6 +7,7 @@ import { BlogsComponent } from './components/blogs/blogs.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './components/login/login.component';
+import { ProductCatalogComponent } from './components/product-catalog/product-catalog.component';
 
 @Component({
     selector: 'app-root',
@@ -15,7 +16,7 @@ import { LoginComponent } from './components/login/login.component';
     styleUrl: './app.component.css',
     imports: [CommonModule, RouterOutlet, LandingPageComponent,
          SearchComponent, BlogsComponent,
-        FooterComponent, RouterOutlet, RouterLink, RouterLinkActive, RegisterComponent, LoginComponent]
+        FooterComponent, RouterOutlet, RouterLink, RouterLinkActive, RegisterComponent, LoginComponent,ProductCatalogComponent]
 })
 export class AppComponent {
   title = 'Ampl Shop';
